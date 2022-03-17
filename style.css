@@ -1,0 +1,8 @@
+body img {
+  filter: grayscale();
+  transition: filter 1s;
+}
+
+body img:hover {
+  filter: initial;
+}
