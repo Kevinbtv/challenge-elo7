@@ -15,17 +15,23 @@
     <header>
       <div class="navigation container">
         <img src="./files/logo.svg" height="30px" alt="" />
-        <nav>
-          <img src="/files/hamburger_icon.png" height="30px" alt="" />
-          <ul class="navMobile">
-            <li>Home</li>
-            <li>Sobre</li>
-            <li>Trabalhe Conosco</li>
-          </ul>
-
-          <ul class="navWeb"></ul>
-        </nav>
+        <img class="close" src="./files/x.png" height="30px" alt="" />
+        <img
+          class="open"
+          src="/files/hamburger_icon.png"
+          height="30px"
+          alt=""
+        />
       </div>
+      <nav class="navMobile move">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">Sobre</a></li>
+          <li><a href="/">Trabalhe Conosco</a></li>
+        </ul>
+
+        <ul class="navWeb"></ul>
+      </nav>
     </header>
     <main>
       <section class="sec-1">
@@ -42,7 +48,7 @@
           significado a cada transação realizada.
         </p>
         <div class="info">
-          <p>Vagas em aberto &#187;</p>
+          <p><a href="/vagas" target="_blank">Vagas em aberto &#187;</a></p>
         </div>
       </section>
 
@@ -120,30 +126,17 @@
           </div>
         </article>
         <div class="info">
-          <p>Saiba mais &#187;</p>
+          <p><a href="/vagas" target="_blank">Saiba mais &#187;</a></p>
         </div>
       </section>
     </main>
     <footer class="container">
       <img src="./files/foto-bottom.png" width="100%" alt="" />
       <h1>Vagas em Aberto</h1>
-
       <h2>Desenvolvimento</h2>
+
       <div class="sec_dev">
-        <div class="vagas">
-          <p><a href="#">Desenvolvedor Mobile Senior (Android e iOS)</a></p>
-          <p>Vila Olímpia - São Paulo, Brasil</p>
-        </div>
-
-        <div class="vagas">
-          <p><a href="#">Desenvolvedor Java Senior</a></p>
-          <p>Vila Olímpia - São Paulo, Brasil</p>
-        </div>
-
-        <div class="vagas">
-          <p><a href="#">Desenvolvedor Front-End</a></p>
-          <p>Vila Olímpia - São Paulo, Brasil</p>
-        </div>
+        <!-- Código JavaScript -->
       </div>
     </footer>
   </body>
