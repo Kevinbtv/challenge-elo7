@@ -9,34 +9,50 @@
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <script defer src="script.js"></script>
-    <title>Trabalhe no Elo7</title>
+    <title>Vagas no Elo7</title>
   </head>
   <body>
+    <!-- Cabeçalho -->
     <header>
       <div class="navigation container">
         <img src="./files/logo.svg" height="30px" alt="" />
-        <img class="close" src="./files/x.png" height="30px" alt="" />
+        <img
+          class="close"
+          src="./files/x.png"
+          height="30px"
+          alt="ícone para fechar Menu"
+        />
         <img
           class="open"
           src="/files/hamburger_icon.png"
           height="30px"
-          alt=""
+          alt="ícone para abrir Menu"
         />
-      </div>
-      <nav class="navMobile move">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/">Sobre</a></li>
-          <li><a href="/">Trabalhe Conosco</a></li>
-        </ul>
 
-        <ul class="navWeb"></ul>
+        <!-- Navegação Web -->
+        <nav class="navWeb">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#vagas">Trabalhe Conosco</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Navegação Mobile -->
+      <nav class="navMobile">
+        <ul>
+          <li class="li_mob"><a href="#home">Home</a></li>
+          <li class="li_mob"><a href="#sobre">Sobre</a></li>
+          <li class="li_mob"><a href="#vagas">Trabalhe Conosco</a></li>
+        </ul>
       </nav>
     </header>
     <main>
-      <section class="sec-1">
+      <!-- Banner principal -->
+      <section id="home" class="sec-1">
         <div class="banner">
-          <img src="./files/foto-header.png" alt="" />
+          <img src="./files/foto-header.png" alt="Foto com a equipe Elo7" />
           <h1>Trabalhe no Elo7</h1>
         </div>
         <p class="container">
@@ -52,7 +68,8 @@
         </div>
       </section>
 
-      <section class="sec-2">
+      <!-- Vídeo do CEO e informações adicionais -->
+      <section id="sobre" class="sec-2">
         <article class="video_ceo container">
           <iframe
             width="900"
@@ -67,10 +84,12 @@
             <h1>Palavra do CEO</h1>
             <h2>Carlos Curioni</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni
-              commodi vitae, eaque id quidem enim! Illo, inventore maxime?
-              Repellendus temporibus et delectus laudantium dicta commodi
-              voluptatibus debitis, quae illo animi?
+              O Man in the Arena é um videocast sobre empreendedorismo e cultura
+              digital apresentado por Leo Kuba, Miguel Cavalcanti e In Hsieh.
+              Neste episódio (#075), o bate-papo é com com Carlos Curioni, CEO
+              do Elo7, maior marketplace de compra e venda de produtos
+              artesanais da América Latina (que acaba de receber mais
+              investimento).
             </p>
           </div>
         </article>
@@ -80,58 +99,67 @@
         </div>
 
         <article class="cards_func container">
-          <img src="./files/camila.jpg" alt="" />
-          <img src="./files/guto.jpg" alt="" />
-          <img src="./files/beatriz.jpg" alt="" />
-          <img src="./files/david.jpg" alt="" />
+          <img src="./files/camila.jpg" alt="Foto funcionária Camila" />
+          <img src="./files/guto.jpg" alt="Foto funcionário Guto" />
+          <img src="./files/beatriz.jpg" alt="Foto funcionária Beatriz" />
+          <img src="./files/david.jpg" alt="Foto funcionária David" />
         </article>
       </section>
 
       <section class="sec-3 container">
         <article>
-          <img src="./files/qualidade.png" alt="" />
+          <img src="./files/qualidade.png" alt="Ícone Qualidade" />
           <div class="sec-3_text">
             <h1>Qualidade de vida</h1>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit
-              excepturi est aperiam corporis commodi provident, itaque
-              voluptates
+              Muito mais que um site, o Elo7 nasceu em 2008 com a missão de
+              transformar a vida das pessoas através de um ambiente humanizado
+              de compra e venda que conecta e inspira, conferindo significado a
+              cada transação realizada.
             </p>
           </div>
         </article>
 
         <article>
-          <img src="./files/descontracao.png" alt="" />
+          <img src="./files/descontracao.png" alt="Ícone descontração" />
           <div class="sec-3_text">
             <h1>Ambiente Descontraído</h1>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
-              repudiandae autem ipsam at consequatur rerum pariatur corrupti ex
-              ad provident assumenda architecto id consectetur tempore quis
-              Velit facere delectus numquam amet iste nemo saepe aspernatur
-              facilis necessitatibus officiis.
+              1:1's e feedbacks constantes para que você possa compreender como
+              está e seu plano de desenvolvimento; Rodas de Conversas entre
+              times sobre diversos temas e grupos como apaixonados por Pets,
+              Música, Livros, Games e outros assuntos;
             </p>
           </div>
         </article>
 
         <article>
-          <img src="./files/atividades.png" alt="" />
+          <img src="./files/atividades.png" alt="Ícone atividades" />
           <div class="sec-3_text">
             <h1>Atividades Extras</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              quam nemo qui sed! Dicta totam deleniti incidunt quidem, eligendi
-              illum error ad, suscipit quasi ipsum, maiores dolorem!
+              Craft Day - Um momento para embarcar no universo dos nossos
+              vendedores criativos e aprender uma técnica manual; Health
+              Challenge - Desafios voltado para o incentivo do cuidado com a
+              saúde (sempre temático); Tech Talks - Momentos para compartilhar
+              conteúdos envolvendo o Universo de tecnologia e muitos outros
+              assuntos.
             </p>
           </div>
         </article>
         <div class="info">
-          <p><a href="/vagas" target="_blank">Saiba mais &#187;</a></p>
+          <p><a href="/more" target="_blank">Saiba mais &#187;</a></p>
         </div>
       </section>
     </main>
-    <footer class="container">
-      <img src="./files/foto-bottom.png" width="100%" alt="" />
+
+    <!-- Banner final e vagas -->
+    <footer id="vagas" class="container">
+      <img
+        src="./files/foto-bottom.png"
+        width="100%"
+        alt="Foto local de trabalho Elo7"
+      />
       <h1>Vagas em Aberto</h1>
       <h2>Desenvolvimento</h2>
 
