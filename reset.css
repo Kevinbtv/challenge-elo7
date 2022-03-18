@@ -84,12 +84,15 @@ time,
 mark,
 audio,
 video {
+  text-decoration: none;
+  color: inherit;
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  line-height: 1.2;
 }
 /* HTML5 display-role reset for older browsers */
 article,
