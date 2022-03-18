@@ -33,8 +33,8 @@ document.querySelectorAll(".li_mob").forEach(listas => {
 });
 
 // Consumo da API para extração dos dados da Vaga
-const dadosVagas = async () => {
-  const url = await fetch("http://www.mocky.io/v2/5d6fb6b1310000f89166087b");
+(async () => {
+  const url = await fetch("https://www.mocky.io/v2/5d6fb6b1310000f89166087b");
   const data = await url.json();
   const vagas = data.vagas;
 
@@ -61,6 +61,4 @@ const dadosVagas = async () => {
       vagasDev.insertAdjacentHTML("beforeend", html);
     }
   });
-};
-
-dadosVagas();
+})();
