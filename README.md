@@ -9,12 +9,12 @@
 ## Funcionalidades 🚀
 
 - [x] A aplicação está responsíva para Mobile, Tablets, Laptops, Desktops (Mínimo, largo e extra largo).
-- [x] Código totalmente semântico. 
+- [x] Código totalmente semântico.
 - [x] Landing Page voltada à vagas da empresa Elo7, onde é mostrado o vídeo do CEO, informações gerais e das vagas.
-- [x] Cabeçalho com o Menu para acesso às seções do site. 
-- [x] As fotos dos funcionários ficarão com a cor real ao passar o ponteiro do mouse. 
-- [x] As vagas apresentadas são somente as que estão ativas para cadastro. 
-- [x] As informações apresentadas no site foram extraídas da página oficial do Elo7. 
+- [x] Cabeçalho com o Menu para acesso às seções do site.
+- [x] As fotos dos funcionários ficarão com a cor real ao passar o ponteiro do mouse.
+- [x] As vagas apresentadas são somente as que estão ativas para cadastro.
+- [x] As informações apresentadas no site foram extraídas da página oficial do Elo7.
 
 ## Principais desafios :grimacing:
 
@@ -27,4 +27,5 @@
 ## Como utilizar :bangbang:
 
 Acesse ao site
+
 - <a href="https://elo7-challenge.netlify.app/" target="_blank">Desafio Elo7</a>

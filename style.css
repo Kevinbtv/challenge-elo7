@@ -5,22 +5,33 @@
 /* Configurações gerais */
 html {
   scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+
+p {
+  line-height: 1.4;
+  color: #8d96a7;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #8f8e8c;
+}
+
+ul li {
+  color: #8d96a7;
+  text-transform: uppercase;
 }
 
 :root {
-  --main-p-color: #8d96a7;
-  --main-h1-color: #8f8e8c;
   --p-blue-color: #47a6b3;
   --main-orange-color: #f8b11e;
 }
 
-body {
-  font-family: sans-serif;
-}
-
 .container {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 0 20px;
 }
 
 /* Cabeçalho */
@@ -52,15 +63,10 @@ header {
 
 .navMobile ul li {
   margin-bottom: 15px;
-  color: var(--main-p-color);
-  text-transform: uppercase;
   cursor: pointer;
 }
 
-.navWeb {
-  display: none;
-}
-
+.navWeb,
 .close {
   display: none;
 }
@@ -78,14 +84,12 @@ header {
   text-shadow: 2px 2px 2px rgba(44, 44, 44, 0.363);
   font-size: 1.5rem;
   margin-top: 50px;
-  font-weight: bold;
+  text-transform: none;
 }
 
 .sec-1 p {
   text-align: center;
   margin-top: 40px;
-  color: var(--main-p-color);
-  line-height: 1.4;
 }
 
 .banner {
@@ -136,10 +140,7 @@ header {
 }
 
 .video_ceo div h1 {
-  color: var(--main-h1-color);
   font-size: 1.4rem;
-  font-weight: bold;
-  text-transform: uppercase;
 }
 
 .video_ceo div h2 {
@@ -147,21 +148,18 @@ header {
   font-style: oblique;
   font-size: 1.2rem;
   margin-top: 5px;
+  text-transform: none;
+  font-weight: 500;
 }
 
 .video_ceo div p {
   margin-top: 30px;
-  color: var(--main-p-color);
   text-align: justify;
-  line-height: 1.4;
 }
 
 .sec-2_title h1 {
   text-align: center;
-  color: var(--main-h1-color);
   font-size: 1.5rem;
-  font-weight: bold;
-  text-transform: uppercase;
   width: 280px;
   margin: 0 auto;
   padding: 50px 0;
@@ -199,17 +197,12 @@ header {
 }
 
 .sec-3_text h1 {
-  color: var(--main-h1-color);
   font-size: 1.2rem;
-  font-weight: bold;
-  text-transform: uppercase;
   margin-bottom: 20px;
 }
 
 .sec-3_text p {
-  color: var(--main-p-color);
   text-align: justify;
-  line-height: 1.4;
 }
 
 /* Vagas */
@@ -219,10 +212,7 @@ footer {
 }
 
 footer h1 {
-  color: var(--main-h1-color);
   font-size: 1.3rem;
-  font-weight: bold;
-  text-transform: uppercase;
   text-align: center;
   margin-top: 30px;
 }
@@ -230,9 +220,6 @@ footer h1 {
 footer h2 {
   margin: 30px 0;
   font-size: 1.2rem;
-  color: var(--main-h1-color);
-  font-weight: bold;
-  text-transform: uppercase;
 }
 
 .vagas {
@@ -254,7 +241,6 @@ footer h2 {
 
 .vagas p:nth-child(2) {
   text-align: right;
-  color: var(--main-p-color);
   font-weight: bolder;
 }
 
@@ -265,8 +251,7 @@ footer h2 {
   }
 
   .container {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 0 100px;
   }
 
   .close,
@@ -285,8 +270,6 @@ footer h2 {
   }
 
   .navWeb ul li {
-    color: var(--main-p-color);
-    text-transform: uppercase;
     transition: color 0.3s;
   }
 
@@ -347,8 +330,7 @@ footer h2 {
     font-size: 1.2rem;
   }
   .container {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin: 0 150px;
   }
 
   .sec-1 h1 {
@@ -364,8 +346,7 @@ footer h2 {
 /* Modo responsivo para desktops e telas extra grandes */
 @media screen and (min-width: 1600px) {
   .container {
-    margin-left: 300px;
-    margin-right: 300px;
+    margin: 0 300px;
   }
 
   .video_ceo iframe {

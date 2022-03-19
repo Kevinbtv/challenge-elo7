@@ -5,6 +5,7 @@ const openMenu = document.querySelector(".open");
 const closeMenu = document.querySelector(".close");
 const navMobile = document.querySelector(".navMobile");
 const vagasDev = document.querySelector(".sec_dev");
+let listas = document.querySelectorAll(".li_mob");
 
 // Função para fechar o Menu Mobile
 const closeAll = () => {
@@ -26,7 +27,7 @@ closeMenu.addEventListener("click", () => {
 });
 
 // Fechar o Menu ao clicar em cada opção
-document.querySelectorAll(".li_mob").forEach(listas => {
+listas.forEach(listas => {
   listas.addEventListener("click", () => {
     closeAll();
   });
