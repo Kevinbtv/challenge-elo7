@@ -9,7 +9,7 @@ let listas = document.querySelectorAll(".li_mob");
 
 // Função para fechar o Menu Mobile
 const closeAll = () => {
-  navMobile.style.top = "-162%";
+  navMobile.style.top = "-185%";
   openMenu.style.display = "block";
   closeMenu.style.display = "none";
 };
