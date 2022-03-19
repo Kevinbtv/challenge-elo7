@@ -105,6 +105,7 @@ header {
 
 .info {
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .info p {
@@ -240,6 +241,7 @@ footer h2 {
 }
 
 .vagas p:nth-child(2) {
+  color: #8d96a7;
   text-align: right;
   font-weight: bolder;
 }
@@ -340,6 +342,10 @@ footer h2 {
 
   .video_ceo iframe {
     width: 2500px;
+  }
+
+  footer {
+    padding: 50px 0;
   }
 }
 
