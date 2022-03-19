@@ -10,23 +10,23 @@ html {
 
 p {
   line-height: 1.4;
-  color: #8d96a7;
+  color: #95918d;
 }
 
 h1,
 h2 {
   font-weight: bold;
   text-transform: uppercase;
-  color: #8f8e8c;
+  color: #7d7873;
 }
 
 ul li {
-  color: #359c9c;
+  color: var(--p-blue-color);
 }
 
 :root {
-  --p-blue-color: #47a6b3;
-  --main-orange-color: #f8b11e;
+  --p-blue-color: #359c9c;
+  --main-orange-color: #fdb933;
 }
 
 .container {
@@ -36,7 +36,7 @@ ul li {
 /* Cabeçalho */
 
 header {
-  border-top: 2px solid #f8b11e;
+  border-top: 2px solid #fdb933;
   background-color: #fff;
   padding: 20px 0;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.102);
@@ -127,7 +127,7 @@ header {
 /* Sobre */
 
 .sec-2 {
-  background-color: #f8f8f8;
+  background-color: #f4f5f7;
   padding: 50px 0;
 }
 
@@ -241,7 +241,7 @@ footer h2 {
 }
 
 .vagas p:nth-child(2) {
-  color: #8d96a7;
+  color: #95918d;
   text-align: right;
   font-weight: bolder;
 }
