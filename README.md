@@ -36,3 +36,5 @@
 Acesse ao site
 
 - <a href="https://elo7-challenge.netlify.app/" target="_blank">Desafio Elo7</a>
+
+![elo7-challenge netlify app_](https://user-images.githubusercontent.com/86861379/159132495-4d8073fb-a09d-4240-9444-7563a11e6876.png)
