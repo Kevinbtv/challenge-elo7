@@ -1,5 +1,6 @@
 // #Ínicio Código JavaScript
-
+import "core-js/stable";
+import "regenerator-runtime/runtime";
 // Seletores
 const openMenu = document.querySelector(".open");
 const closeMenu = document.querySelector(".close");
@@ -34,12 +35,14 @@ listas.forEach(listas => {
 });
 
 // Consumo da API para extração dos dados da Vaga
-(async () => {
+const get = async () => {
   const url = await fetch("https://www.mocky.io/v2/5d6fb6b1310000f89166087b");
   const data = await url.json();
   const vagas = data.vagas;
 
   vagas.map(dados => {
+    console.log(dados);
+
     // Condicional para aparecer apenas as vagas ativas
     if (dados.ativa) {
       // Seletores das informações
@@ -62,4 +65,6 @@ listas.forEach(listas => {
       vagasDev.insertAdjacentHTML("beforeend", html);
     }
   });
-})();
+};
+
+get();
