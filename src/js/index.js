@@ -1,5 +1,4 @@
 // #Ínicio Código JavaScript
-import "core-js/stable";
 import "regenerator-runtime/runtime";
 // Seletores
 const openMenu = document.querySelector(".open");

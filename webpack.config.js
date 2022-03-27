@@ -15,8 +15,7 @@ const config = (env, argv) => {
     output: {
       path: path.resolve(__dirname, "./dist"),
       filename: "js/main.[contenthash].js",
-      clean: true,
-      publicPath: "/"
+      clean: true
     },
     plugins: [
       new MiniCssExtractPlugin({
