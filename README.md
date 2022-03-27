@@ -26,6 +26,7 @@
 
 ## Atualizações :hourglass:
 
+- Adicionei o Webpack para junção dos módulos + Babel para uma compatibilidade maior nos navegadores antigos.
 - Atualizei as cores, buscando deixar o mais próximo à foto disponibilizada.
 - Atualizei o favicon, cujo o mesmo do site oficial, onde deixei comentado no HTML, respeitando os direitos autorais.
 - Atualizei os ícones de abrir e fechar menu Mobile, deixando-os mais visíveis e simples que os anteriores.
