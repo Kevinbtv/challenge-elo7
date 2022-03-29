@@ -1,8 +1,8 @@
 // #Ínicio Código JavaScript
 import "regenerator-runtime/runtime";
 // Seletores
-const openMenu = document.querySelector(".open");
-const closeMenu = document.querySelector(".close");
+const openMenu = document.getElementById("open");
+const closeMenu = document.getElementById("close");
 const navMobile = document.querySelector(".navMobile");
 const vagasDev = document.querySelector(".sec_dev");
 let listas = document.querySelectorAll(".li_mob");
@@ -40,17 +40,13 @@ const get = async () => {
   const vagas = data.vagas;
 
   vagas.map(dados => {
-    console.log(dados);
+    const { cargo, link, ativa, localizacao } = dados;
+    const { bairro, cidade, pais } = localizacao || {};
 
     // Condicional para aparecer apenas as vagas ativas
-    if (dados.ativa) {
+    if (ativa) {
       // Seletores das informações
-      const cargo = dados.cargo;
-      const link = dados.link;
-      const bairro = dados.localizacao?.bairro;
-      const cidade = dados.localizacao?.cidade;
-      const pais = dados.localizacao?.pais;
-      const check = dados.localizacao
+      const check = localizacao
         ? `<p>${bairro} - ${cidade}, ${pais}</p> `
         : "<p>Remoto</p>"; //Caso não haja localização, retornar Remoto
 

@@ -8,7 +8,7 @@ const config = (env, argv) => {
   const mode = argv.mode;
   return {
     mode: mode,
-    devtool: "source-map",
+    devtool: mode === "development" ? "source-map" : false,
     entry: {
       main: path.resolve(__dirname, "./app.js")
     },
@@ -22,7 +22,7 @@ const config = (env, argv) => {
         filename: "css/[name].[contenthash].css"
       }),
       new HtmlWebpackPlugin({
-        template: path.resolve(__dirname, "./src/template.html"), //
+        template: path.resolve(__dirname, "./src/index.html"), //
         filename: "index.html" //
       }),
       new CleanWebpackPlugin(),

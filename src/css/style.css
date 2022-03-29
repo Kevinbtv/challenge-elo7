@@ -51,6 +51,11 @@ header {
   justify-content: space-between;
 }
 
+.navigation button {
+  background: none;
+  border: none;
+}
+
 .navMobile {
   text-align: center;
   padding-top: 30px;
@@ -124,6 +129,10 @@ header {
 
 .info p:hover {
   color: var(--main-orange-color);
+}
+
+.info p ::after {
+  content: "\00bb";
 }
 
 /* Sobre */
@@ -287,7 +296,11 @@ footer h2 {
   }
 
   .video_ceo iframe {
-    width: 2100px;
+    flex: 1;
+  }
+
+  .video_ceo div {
+    flex: 1;
   }
 
   .video_ceo {
@@ -342,9 +355,13 @@ footer h2 {
     margin-top: 250px;
   }
 
-  .video_ceo iframe {
-    width: 2500px;
+  /* .video_ceo iframe {
+    flex: 1;
   }
+
+  .video_ceo div {
+    flex: 1;
+  } */
 
   footer {
     padding: 50px 0;
@@ -357,7 +374,11 @@ footer h2 {
     margin: 0 300px;
   }
 
-  .video_ceo iframe {
-    width: 3000px;
+  /* .video_ceo iframe {
+    flex: 1;
   }
+
+  .video_ceo div {
+    flex: 1;
+  } */
 }
